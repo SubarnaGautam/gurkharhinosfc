@@ -5,11 +5,11 @@ body{
 
 /* nav section*/
 nav{
-    background-color: hsl(240, 5%, 15%);
+    background-color: hsl(240, 9%, 39%);
     color: white;
     font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom: 0;
+   padding-bottom: 0.3px;
     
     
 }
@@ -27,6 +27,9 @@ nav{
 #quote{
     order:-1;
     margin-right: auto;
+    color: hsl(90, 79%, 50%);
+    font-weight: 900;
+    font-size: 1.6rem;
 }
 
 
@@ -39,7 +42,7 @@ header{
     font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 4em;
-    margin-top: 0;
+    margin-top: 5px;
    
  
 }
@@ -150,11 +153,75 @@ footer li{
     color: rgb(245, 245, 245);
     font-size: 0.75em;
 }
+.teams > div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+}
+
+.teams > div:hover {
+    grid-column: span 2;
+    grid-row: span 2;
+    grid-template-columns: 2fr, 0.5fr, 0.5fr;
+
+}
 
 
+/* sponser*/
 
-/**/
-/**/
-/**/
+.sponser{
+    background-color: hsl(240, 47%, 19%);
+    color: white;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;   
+
+ 
+}
+.sponser img{
+    margin-top: 10px;
+    position: relative;
+    right: 3em;
+}
+/*video section*/
+
+.Videocontainer{
+    background-color: rgb(57, 54, 54);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 0.6em;
+ 
+}
+/*Games and features*/
+
+
+.games{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 1em;
+
+    height: 30em;
+    gap: 5px;
+    font-size: 10px;
+   
+}
+.game{
+    border: 1px, solid;
+     background-color: hsl(240, 9%, 39%);
+    text-align: center;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 8px;
+}
+.gametitle{
+    text-align: center;
+    background-color: hsl(240, 9%, 39%);
+
+}
 /**/
 /**/
