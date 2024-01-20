@@ -1,0 +1,160 @@
+body{
+    background-color: hsl(174, 23%, 91%);
+    font-size: 16px;
+}
+
+/* nav section*/
+nav{
+    background-color: hsl(240, 5%, 15%);
+    color: white;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
+    
+    
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-end;
+
+}
+.navlist li{
+
+    margin: 10px;
+}
+#quote{
+    order:-1;
+    margin-right: auto;
+}
+
+
+/* Header section */
+
+
+header{
+    background-color: hsl(240, 47%, 19%);
+    color: white;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 4em;
+    margin-top: 0;
+   
+ 
+}
+.headerlist{
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-start;
+    float: left;
+    font-size: 1.1rem;
+
+}
+
+.headerlist li{
+    margin: 10px;
+}
+
+.headerlist2{
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-end;
+    position:static;
+    font-size: 1.1rem;
+}
+.headerlist2 li{
+    margin: 10px;
+}
+
+
+
+/*  body */
+
+#body{
+    background-color: beige;
+    height: 100em;
+}
+/* footer */
+footer{
+    background-color: hsl(240, 47%, 19%);
+    color: white;
+    margin-top: 34em;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+  
+    justify-content: space-around;
+   
+    font-size: 0.7rem;
+    text-align: justify;
+   
+}
+footer li{
+    margin: 5px;
+    display: inline;
+}
+#copyright{
+    order: -1;
+    margin-right: auto;
+}
+
+/* temas */
+
+.teams{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1em;
+    height: 20em;
+    gap: 10px;
+
+}
+.scullin{
+    border: 1px, solid;
+    background-image: url('/resources/images/scullin.jpeg');
+    text-align: center;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.woden{
+    border: 1px, solid;
+    background-color: hsl(209, 39%, 81%);
+    text-align: center;
+    background-image: url('/resources/images/wooden.jpeg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+
+}
+.hawker{
+    border: 1px, solid;
+    background-color: hsl(209, 62%, 77%);
+    text-align: center;
+    background-image: url('/resources/images/hawker.jpeg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.scullin, .woden, .hawker{
+    color: rgb(245, 245, 245);
+    font-size: 0.75em;
+}
+
+
+
+/**/
+/**/
+/**/
+/**/
+/**/
