@@ -2,10 +2,19 @@ body{
     background-color: hsl(174, 23%, 91%);
     font-size: 16px;
 }
-
+a{
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration: solid;
+    cursor: pointer;
+    color: hsl(0, 0%, 78%);
+}
 /* nav section*/
 nav{
-    background-color: rgba(184, 184, 205, 0.501);
+    background-color: rgba(85, 15, 55, 0.547);
     color: hsl(248, 92%, 5%); 
     font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
